@@ -10,3 +10,5 @@ language: node_js
 # https://docs.travis-ci.com/user/languages/javascript-with-nodejs/#specifying-nodejs-versions
 node_js:
 - node
+
+script: skip
