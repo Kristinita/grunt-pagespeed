@@ -1,8 +1,9 @@
-os: linux
-
-# [INFO] The latest environment for September 2020:
+# [INFO] The latest environment for October 2025:
 # https://docs.travis-ci.com/user/reference/linux#overview
-dist: focal
+dist: noble
+
+git:
+  depth: 1
 
 language: node_js
 
@@ -10,5 +11,7 @@ language: node_js
 # https://docs.travis-ci.com/user/languages/javascript-with-nodejs/#specifying-nodejs-versions
 node_js:
 - node
+
+os: linux
 
 script: skip
